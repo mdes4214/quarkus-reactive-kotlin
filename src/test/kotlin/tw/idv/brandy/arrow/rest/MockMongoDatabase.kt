@@ -6,7 +6,7 @@ import org.testcontainers.utility.DockerImageName
 
 class MockMongoDatabase : QuarkusTestResourceLifecycleManager {
 
-    private val mongoDBContainer = MongoDBContainer(DockerImageName.parse("mongo:4.0.10")).apply {
+    private val mongoDBContainer = MongoDBContainer(DockerImageName.parse("mongo:4.4.9")).apply {
 
     }
 
